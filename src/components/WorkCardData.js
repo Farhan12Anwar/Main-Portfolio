@@ -25,13 +25,13 @@ const ProjectCardData = [
     },
     {
         imgsrc: social,
-        title: "Chat Application",
+        title: "Social Media Application",
         text:"A brief introduction about my Third website",
         view:"https://www.typing.com/student/typing-test/1-page"
     },
     {
         imgsrc: notes,
-        title: "Chat Application",
+        title: "Event Management Application",
         text:"A brief introduction about my Third website",
         view:"https://www.typing.com/student/typing-test/1-page"
     },

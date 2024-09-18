@@ -13,6 +13,7 @@ function WorkCard(props) {
                 <p>{props.text}</p>
                 <div className="pro-btns">
                     <NavLink
+                    target="_blank"
                      to={props.view}
                       className="btn">View</NavLink>
 

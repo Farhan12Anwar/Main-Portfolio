@@ -28,7 +28,9 @@
 }
 
 .hero-img h1 {
-    font-size: 2.4rem;
+    color:white;
+    font-size: 30px;
+    padding-top:5px;
 }
 
 .hero-img p {

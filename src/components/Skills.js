@@ -10,6 +10,7 @@ const Skills = () => {
     { name: 'HTML/CSS', progress: 80 },
     { name: 'JavaScript', progress: 70 },
     { name: 'React.js', progress: 60 },
+    { name: 'React Native', progress: 60 },
     { name: 'Bootstrap', progress: 60 },
     { name: 'Tailwind css', progress: 60 },
     { name: 'Core Java', progress: 60 },
@@ -25,6 +26,7 @@ const Skills = () => {
   const [databaseSkills] = useState([
     { name: 'MongoDB', progress: 70 },
     { name: 'MySQL', progress: 65 },
+    { name: 'Firebase', progress: 65 },
     // Add more database skills here
   ]);
   // const [additionalSkills, setAdditionalSkills] = useState([
@@ -39,7 +41,7 @@ const Skills = () => {
 
    const [additionalSkills, setAdditionalSkills] = useState([
     { category: 'Soft Skills', skills: ['Time Management', 'Problem Solving', 'Communication'] },
-    { category: 'Version Control', skills: ['Git', 'SVN'] },
+    { category: 'Version Control', skills: ['Git','GitHub', 'SVN'] },
     { category: 'Design Skills', skills: ['UI/UX Design', 'Adobe Photoshop', 'Adobe Illustrator'] },
     { category: 'Certifications and Training', skills: ['CertificationName1', 'CertificationName2'], link: 'https://example.com/certificates' }
     // Add more categories and skills here

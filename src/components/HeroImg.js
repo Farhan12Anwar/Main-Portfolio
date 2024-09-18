@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import Typed from 'typed.js'; // Import the Typed library
+import Typed from 'typed.js'; 
 
 import img4 from '../assets/img4.jpg';
 import './HeroImgStyles.css';
@@ -9,7 +9,7 @@ function HeroImg() {
 
   useEffect(() => {
     const typed = new Typed('.auto-type', {
-      strings: ['Programmer', 'Designer', 'Developer'],
+      strings: ['PROGRAMMER', 'DESIGNER', 'DEVELOPER'],
       typeSpeed: 30,
       backSpeed: 30,
       loop: true,
