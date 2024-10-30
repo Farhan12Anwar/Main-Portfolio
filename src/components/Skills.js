@@ -29,15 +29,6 @@ const Skills = () => {
     { name: 'Firebase', progress: 65 },
     // Add more database skills here
   ]);
-  // const [additionalSkills, setAdditionalSkills] = useState([
-  //   'API',
-  //   'WEBSOCKETS',
-  //   'AJAX/FETCH',
-  //   'Time Management',
-  //   'Problem Solving',
-  //   'Communication',
-    
-  // ]);
 
    const [additionalSkills, setAdditionalSkills] = useState([
     { category: 'Soft Skills', skills: ['Time Management', 'Problem Solving', 'Communication'] },
