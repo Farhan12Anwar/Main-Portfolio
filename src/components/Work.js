@@ -2,7 +2,7 @@ import "./WorkCardStyles.css";
 import WorkCard from "./WorkCard";
 import WorkCardData from "./WorkCardData";
 
-import React from 'react'
+import React from "react";
 
 function Work() {
   return (
@@ -10,19 +10,20 @@ function Work() {
       <h1 className="project-heading">Projects</h1>
       <div className="project-container">
         {WorkCardData.map((val, ind) => {
-            return (
-                <WorkCard 
-                key={ind}
-                imgsrc={val.imgsrc}
-                title={val.title}
-                text={val.text}
-                view={val.view}
-                />
-            )
+          return (
+            <WorkCard
+              key={ind}
+              imgsrc={val.imgsrc}
+              title={val.title}
+              text={val.text}
+              view={val.view}
+              git={val.git}
+            />
+          );
         })}
       </div>
     </div>
-  )
+  );
 }
 
 export default Work;
