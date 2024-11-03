@@ -26,7 +26,7 @@ const ProjectCardData = [
     imgsrc: chat,
     title: "Chat Application",
     text: "A brief introduction about my Third website",
-    view: "https://www.typing.com/student/typing-test/1-page",
+    view: "https://chatter-portfolio.onrender.com",
     git: "https://github.com/Farhan12Anwar/Chatter-Portfolio.git", // Replace with actual link
   },
   {
