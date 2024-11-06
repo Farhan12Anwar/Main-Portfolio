@@ -13,21 +13,21 @@ const ProjectCardData = [
     title: "QUIZ APPLICATION",
     text: "A Simple Quiz Application",
     view: "https://quiz-app-99.netlify.app/",
-    git: "https://github.com/Farhan12Anwar/Quiz.git", // Replace with actual link
+    git: "https://github.com/Farhan12Anwar/Quiz.git",
   },
   {
     imgsrc: recipe,
     title: "Recipe Sharing Application",
     text: "Share and discover delicious recipes.",
     view: "https://recipe-app-123.netlify.app/",
-    git: "https://github.com/Farhan12Anwar/Recipe-Application.git", // Replace with actual link
+    git: "https://github.com/Farhan12Anwar/Recipe-Application.git",
   },
   {
     imgsrc: chat,
     title: "Chat Application",
     text: "A brief introduction about my Third website",
     view: "https://chatter-portfolio.onrender.com",
-    git: "https://github.com/Farhan12Anwar/Chatter-Portfolio.git", // Replace with actual link
+    git: "https://github.com/Farhan12Anwar/Chatter-Portfolio.git", 
   },
   {
     imgsrc: social,
@@ -41,7 +41,7 @@ const ProjectCardData = [
     title: "Notes Application",
     text: "A simple application to record important events.",
     view: "https://notes-app-99.netlify.app/",
-    git: "https://github.com/Farhan12Anwar/Notes-Application.git", // Replace with actual link
+    git: "https://github.com/Farhan12Anwar/Notes-Application.git", 
   },
 ];
 
